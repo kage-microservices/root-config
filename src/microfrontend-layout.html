@@ -20,7 +20,11 @@
   <main>
     <route default>
       <application name="@kage/navbar"></application>
-      <application name="@single-spa/welcome"></application>
+      <application name="@kage/home-page"></application>
+    </route>
+    <route path="products">
+      <application name="@kage/navbar"></application>
+      <application name="@kage/product-list"></application>
     </route>
   </main>
 </single-spa-router>
