@@ -34,7 +34,11 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@16.13.0/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.0/umd/react-dom.production.min.js",
+        "react-is": "https://unpkg.com/react-is@16.13.1/umd/react-is.production.min.js",
+        "styled-components": "https://unpkg.com/styled-components@5.1.1/dist/styled-components.min.js"
       }
     }
   </script>
@@ -48,7 +52,11 @@
     {
       "imports": {
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@kage/root-config": "//localhost:9000/kage-root-config.js"
+        "@kage/root-config": "//localhost:9000/kage-root-config.js",
+        "@kage/home-page": "//localhost:8080/kage-home-page.js",
+        "@kage/navbar": "//localhost:8081/kage-navbar.js",
+        "@kage/product-list": "//localhost:8082/kage-product-list.js",
+        "@kage/ui-kit": "//localhost:8083/kage-ui-kit.js"
       }
     }
   </script>
